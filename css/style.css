@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%);
+  }
+  .ff-bt2{
+      font-family: "Baloo Tamma 2";
+      font-weight: 700;
+      letter-spacing: 8.75px;
+      line-height: 82px;
+  }
+  .ff-nts{
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 0.62px;
+    color: #333333;
+  }
+ 
+  .mb-1{
+      margin-bottom: 8px;
+  }
+  .pl-3{
+      padding-left: 24px;
+  }
+  .mt-6{
+      margin-top: 48px;
+  }
+  .pr-6{
+      padding-right: 48px;
+  }
+
+
+  .container{
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .title{ 
+      text-align: center;
+      font-size: 48px;
+  }
+
+  input{
+      border: none;
+      font-size: 1rem;
+  }
+
+  .card{
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: #fff;
+    max-width: 100%;
+    
+  }
+   
+   .inputBox{
+      padding: 0.8rem;
+      position:relative
+  } 
+
+  .add{
+      border-radius: 10px;
+      background: #333333;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      text-align: center;
+      font-size: 2rem;
+      text-decoration: none;
+      line-height: 35px;
+      position: absolute;
+      top: 3px;
+      right: 10px;
+  }
+
+   .tab{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    color:#9F9A91;
+}
+
+.tab li{
+    border-bottom: 2px solid #EFEFEF ;
+    cursor: pointer;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.tab li.active{
+    border-bottom: 2px solid #333333;
+    color:#333333;
+}
+
+.list{
+    padding: 1.5rem 2rem 1.5rem 1.5rem
+}
+
+.list li{
+    position: relative;
+    border-bottom: 1px solid #EFEFEF ;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.list li a.delete{
+    opacity: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    /* background: #aaa; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx_UA3KQ9qCWryJXnVq2q5gY2eu-UvCXWbwA&usqp=CAU");
+    background-size: contain;
+}
+.list li:hover a.delete {
+    opacity: 1;
+}
+
+.list_footer{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.clear{
+    text-decoration: none;
+    color: #9F9A91;
+}
+.clear:hover{
+    color: #333;
+}
