@@ -76,12 +76,12 @@ tabs.addEventListener("click", function (e) {
   renderData();
 });
 
-const card = document.querySelector(".card");
+const card = document.querySelector(".cardList");
 // 根據當前的 tab 渲染畫面資料
 function renderData() {
   // 如果沒有 data 默認把整個區塊隱藏
   if (!data.length) {
-    cardList.style.display = "none";
+    card.style.display = "none";
     return;
   }
   card.style.display = "block";

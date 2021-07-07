@@ -104,11 +104,6 @@ body{
     padding: 1rem 2rem 1rem 0;
 }
 
-.checkbox{
-    width: 20px;
-    height: 20px;
-    margin-right: 0.5rem;
-}
 .checkbox {
     position: relative;
     -webkit-user-select: none;
@@ -123,6 +118,7 @@ body{
   .checkbox span {
     display: block;
     padding: 1rem 0;
+    
   }
   @media (max-width: 575px) {
     .checkbox span {
